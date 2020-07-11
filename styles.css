@@ -21,7 +21,8 @@ h1{
 
 nav{
     font-size:2rem;
-    border:2px solid skyblue;
+    border:2px solid hotpink;
+    background-color: skyblue;
 }
 
 a:hover{
@@ -66,4 +67,9 @@ form{
 
 #content{
     background-color:skyblue;
+}
+
+footer{
+    background-color: skyblue;
+    border:2px solid hotpink;
 }
