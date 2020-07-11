@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Radley&display=swap");
+
+html{
+    font-family: 'Radley', sans-serif;
+    background-color: lightpink;
+    color:ivory;
+}
+body{
+    margin:15px;
+}
+
+header{
+    text-align:center;
+    padding:10px;
+}
+
+h1{
+    font-size:4rem;
+}
+
+
+nav{
+    font-size:2rem;
+}
+
+a:hover{
+    color:hotpink;
+}
+
+img{
+    height:300px;
+    width:300px;
+    border-radius:100%;
+}
+
+form{
+    margin: 50px auto;
+    width: 90%;
+    font-size:1.5rem; 
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: skyblue;
+}
+
+.form-item label:hover{
+    color:hotpink;
+
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid hotpink;
+}
+
+.form-item button:hover {
+    border: 2px solid hotpink;
+    background-color: hotpink;
+    color: #FFF;
+}
+
+#content{
+    background-color:skyblue;
+}
