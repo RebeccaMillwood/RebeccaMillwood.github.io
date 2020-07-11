@@ -30,6 +30,9 @@ a:hover{
 }
 
 img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
     height:300px;
     width:300px;
     border-radius:100%;
@@ -72,4 +75,5 @@ form{
 footer{
     background-color: skyblue;
     border:2px solid hotpink;
+    text-align: center;
 }
