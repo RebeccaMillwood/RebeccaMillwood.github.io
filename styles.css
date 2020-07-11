@@ -21,6 +21,7 @@ h1{
 
 nav{
     font-size:2rem;
+    border:2px solid skyblue;
 }
 
 a:hover{
