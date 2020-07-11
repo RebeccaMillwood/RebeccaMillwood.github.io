@@ -2,8 +2,8 @@
 
 html{
     font-family: 'Raleway', sans-serif;
-    background-color: lightpink;
-    color:ivory;
+    background-color: hotpink;
+    color:midnightblue;
 }
 body{
     margin:15px;
@@ -22,7 +22,7 @@ h1{
 nav{
     font-size:2rem;
     border:2px solid hotpink;
-    background-color: skyblue;
+    background-color: lightpink;
 }
 
 a:hover{
@@ -49,7 +49,7 @@ form{
     justify-content: center;
     align-items: center;
     padding: 5px;
-    background-color: skyblue;
+    background-color: lightpink;
 }
 
 .form-item label:hover{
@@ -69,11 +69,11 @@ form{
 }
 
 #content{
-    background-color:skyblue;
+    background-color:lightpink;
 }
 
 footer{
-    background-color: skyblue;
+    background-color: lightpink;
     border:2px solid hotpink;
     text-align: center;
 }
