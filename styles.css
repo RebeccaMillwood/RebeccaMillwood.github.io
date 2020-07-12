@@ -45,19 +45,36 @@ a:hover{
     border-style:dashed;
 }
 
+
 /* end home page */ 
 
 
 /* projects */ 
 
+
+#project-content{
+    display:flex;
+    flex-wrap:wrap;
+}
+
 div.card{
     border: 2px solid black;
     padding:10px;
     margin: 5px;
+    height: auto;
+    widows: auto;
 }
 
-.project-pics {
-    display:inline-block;
+h2{
+    text-align:center;
+}
+
+div.project-text{
+    text-align:center;
+}
+
+img.project-pics {
+    display:block;
     margin-left:auto;
     margin-right:auto;
     height:150px;
@@ -115,13 +132,49 @@ footer{
 
 /* media queries */
 
+/* default - mobile, below 600px */
+
+/*
 #bio-content{
     display:flex;
     flex-wrap:wrap;
     text-align: center;
 }
 
-#project-content{
+*/ 
+
+
+/*
+#contact-content{
     display:flex;
-    flex-wrap:wrap;
+    flex-wrap:wrap; 
 }
+*/
+
+
+@media (max-width:899px) and (min-width:600px){
+    #project-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+    }
+
+    div.card{
+        flex-basis:40%;
+        flex-direction:column;
+    }
+}
+
+@media (min-width:900px){
+    #project-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+    }
+    div.card{
+        flex-basis:20%;
+        flex-direction:column;
+    }
+}
+
+
