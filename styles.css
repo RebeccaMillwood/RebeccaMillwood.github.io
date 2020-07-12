@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 /* generic/common across all pages */
 
@@ -17,11 +17,11 @@ header{
 }
 
 h1{
-    font-size:4rem;
+    font-size:2rem;
 }
 
 nav{
-    font-size:2rem;
+    font-size:1rem;
     border:2px solid hotpink;
     background-color: lightpink;
 }
@@ -29,6 +29,7 @@ nav{
 a:hover{
     color:hotpink;
 }
+
 
 /* end generic/common across all pages */
 
@@ -39,12 +40,16 @@ a:hover{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    height:300px;
-    width:300px;
+    height:170px;
+    width:170px;
     border-radius:100%;
     border-style:dashed;
 }
 
+#bio-text{
+    text-align:center;
+    font-size:1rem;
+}
 
 /* end home page */ 
 
@@ -87,6 +92,7 @@ img.project-pics {
 
 /* Contact me */
 
+
 form{
     margin: 50px auto;
     width: 90%;
@@ -114,7 +120,7 @@ form{
 .form-item button:hover {
     border: 2px solid hotpink;
     background-color: hotpink;
-    color: #FFF;
+    color: midnightblue;
 }
 
 /* end contact me */
@@ -125,6 +131,7 @@ footer{
     background-color: lightpink;
     border:2px solid hotpink;
     text-align: center;
+    font-size:.8rem;
 }
 
 /* end footer */
@@ -134,25 +141,8 @@ footer{
 
 /* default - mobile, below 600px */
 
-/*
-#bio-content{
-    display:flex;
-    flex-wrap:wrap;
-    text-align: center;
-}
 
-*/ 
-
-
-/*
-#contact-content{
-    display:flex;
-    flex-wrap:wrap; 
-}
-*/
-
-
-@media (max-width:899px) and (min-width:600px){
+@media (min-width:600px){
     #project-content{
         display:flex;
         flex-wrap:wrap;
@@ -162,6 +152,38 @@ footer{
     div.card{
         flex-basis:40%;
         flex-direction:column;
+    }
+
+    #bio-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+
+    #profile-pic {
+        display:inline-block;
+        margin-left:auto;
+        margin-right:auto;
+        height:250px;
+        width:250px;
+        border-radius:100%;
+        border-style:dashed;
+    }
+    
+    #bio-text{
+        display:inline-block;
+        text-align:justify;
+        font-size:1rem;
+        width:50%;
+    }
+
+    h1{
+        font-size:2.5rem;
+    }
+
+    nav{
+        font-size:1.1rem;
     }
 }
 
@@ -175,6 +197,32 @@ footer{
         flex-basis:20%;
         flex-direction:column;
     }
+
+    #profile-pic {
+        display:inline-block;
+        margin-left:auto;
+        margin-right:auto;
+        height:300px;
+        width:300px;
+        border-radius:100%;
+        border-style:dashed;
+    }
+    
+    #bio-text{
+        display:inline-block;
+        text-align:justify;
+        font-size:1.2rem;
+        width:50%;
+    }
+
+    h1{
+        font-size:3rem;
+    }
+
+    nav{
+        font-size:1.2rem;
+    }
+}
 }
 
 
