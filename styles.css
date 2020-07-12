@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
 
+/* generic/common across all pages */
+
 html{
     font-family: 'Raleway', sans-serif;
     background-color: hotpink;
@@ -18,7 +20,6 @@ h1{
     font-size:4rem;
 }
 
-
 nav{
     font-size:2rem;
     border:2px solid hotpink;
@@ -29,7 +30,9 @@ a:hover{
     color:hotpink;
 }
 
-img{
+/* home page */ 
+
+#profile-pic {
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -37,6 +40,23 @@ img{
     width:300px;
     border-radius:100%;
 }
+
+
+
+/* projects */ 
+
+.project-pics {
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    height:150px;
+    width:150px;
+    border-radius:100%;
+}
+
+
+
+/* Contact me */
 
 form{
     margin: 50px auto;
@@ -68,9 +88,8 @@ form{
     color: #FFF;
 }
 
-#content{
-    background-color:lightpink;
-}
+
+/* footer */
 
 footer{
     background-color: lightpink;
