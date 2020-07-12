@@ -30,6 +30,9 @@ a:hover{
     color:hotpink;
 }
 
+/* end generic/common across all pages */
+
+
 /* home page */ 
 
 #profile-pic {
@@ -42,9 +45,16 @@ a:hover{
     border-style:dashed;
 }
 
+/* end home page */ 
 
 
 /* projects */ 
+
+div.card{
+    border: 2px solid black;
+    padding:10px;
+    margin: 5px;
+}
 
 .project-pics {
     display:inline-block;
@@ -55,6 +65,7 @@ a:hover{
     border-radius:100%;
 }
 
+/* end projects */ 
 
 
 /* Contact me */
@@ -89,6 +100,7 @@ form{
     color: #FFF;
 }
 
+/* end contact me */
 
 /* footer */
 
@@ -97,3 +109,5 @@ footer{
     border:2px solid hotpink;
     text-align: center;
 }
+
+/* end footer */
