@@ -6,9 +6,13 @@ html{
     font-family: 'Raleway', sans-serif;
     background-color: #DB7093;
     color:midnightblue;
+    height:100%;
 }
 body{
-    margin:15px;
+    margin:10px;
+    display:flex;
+    min-height:100%;
+    flex-direction:column;
 }
 
 header{
@@ -36,6 +40,11 @@ a:hover{
 
 /* home page */ 
 
+#bio-content{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
 #profile-pic {
     display:block;
     margin-left:auto;
@@ -49,6 +58,7 @@ a:hover{
 #bio-text{
     text-align:center;
     font-size:1rem;
+    padding:50px;
 }
 
 /* end home page */ 
@@ -132,6 +142,7 @@ form{
 /* footer */
 
 footer{
+    margin-top:auto;
     background-color: #D98695;
     border:1px solid midnightblue;
     text-align: center;
