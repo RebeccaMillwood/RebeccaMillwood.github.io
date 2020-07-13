@@ -4,7 +4,7 @@
 
 html{
     font-family: 'Raleway', sans-serif;
-    background-color: #DB217E;
+    background-color: #DB7093;
     color:midnightblue;
 }
 body{
@@ -22,12 +22,12 @@ h1{
 
 nav{
     font-size:1rem;
-    border:2px solid hotpink;
-    background-color: lightpink;
+    border:1px solid midnightblue;
+    background-color: #D98695;
 }
 
 a:hover{
-    color:hotpink;
+    color:lightpink;
 }
 
 
@@ -63,7 +63,7 @@ a:hover{
 }
 
 div.card{
-    border: 2px solid hotpink;
+    border: 1px solid midnightblue;
     padding:10px;
     margin: 5px;
     height: auto;
@@ -108,22 +108,22 @@ form{
     justify-content: center;
     align-items: center;
     padding: 5px;
-    background-color: lightpink;
+    background-color: #D98695;
 }
 
 .form-item label:hover{
-    color:hotpink;
+    color:lightpink;
 
 }
 
 .form-item input:hover,
 .form-item textarea:hover {
-    border: 2px solid hotpink;
+    border: 2px solid lightpink;
 }
 
 .form-item button:hover {
-    border: 2px solid hotpink;
-    background-color: hotpink;
+    border: 2px solid lightpink;
+    background-color: lightpink;
     color: midnightblue;
 }
 
@@ -132,8 +132,8 @@ form{
 /* footer */
 
 footer{
-    background-color: lightpink;
-    border:2px solid hotpink;
+    background-color: #D98695;
+    border:1px solid midnightblue;
     text-align: center;
     font-size:.8rem;
 }
