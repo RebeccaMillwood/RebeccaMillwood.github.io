@@ -29,6 +29,9 @@ nav{
     border:1px solid midnightblue;
     background-color: #D98695;
 }
+a{
+    color:midnightblue;
+}
 
 a:hover{
     color:lightpink;
