@@ -92,11 +92,15 @@ img.project-pics {
 
 /* Contact me */
 
+#contact-blurb{
+    text-align:center;
+    font-size:1rem;
+}
 
 form{
     margin: 50px auto;
     width: 90%;
-    font-size:1.5rem; 
+    font-size:1rem; 
 }
 
 .form-item {
@@ -185,6 +189,17 @@ footer{
     nav{
         font-size:1.1rem;
     }
+
+    #contact-blurb{
+        text-align:center;
+        font-size:1.1rem;
+    }
+
+    form{
+        margin: 50px auto;
+        width: 90%;
+        font-size:1.1rem; 
+    }
 }
 
 @media (min-width:900px){
@@ -194,7 +209,7 @@ footer{
         justify-content:space-evenly;
     }
     div.card{
-        flex-basis:20%;
+        flex-basis:25%;
         flex-direction:column;
     }
 
@@ -221,6 +236,17 @@ footer{
 
     nav{
         font-size:1.2rem;
+    }
+
+    #contact-blurb{
+        text-align:center;
+        font-size:1.2rem;
+    }
+
+    form{
+        margin: 50px auto;
+        width: 90%;
+        font-size:1.2rem; 
     }
 }
 }
