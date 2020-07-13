@@ -4,7 +4,7 @@
 
 html{
     font-family: 'Raleway', sans-serif;
-    background-color: hotpink;
+    background-color: #DB217E;
     color:midnightblue;
 }
 body{
@@ -63,7 +63,7 @@ a:hover{
 }
 
 div.card{
-    border: 2px solid black;
+    border: 2px solid hotpink;
     padding:10px;
     margin: 5px;
     height: auto;
