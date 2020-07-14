@@ -69,7 +69,6 @@ a:hover{
 
 /* projects */ 
 
-
 #project-content{
     display:flex;
     flex-wrap:wrap;
@@ -138,6 +137,24 @@ form{
     border: 2px solid lightpink;
     background-color: lightpink;
     color: midnightblue;
+}
+
+.form-item button{
+    background-color: #D98695;
+    border:1px solid midnightblue;
+    color:midnightblue;
+}
+
+#name{
+    border: 1px solid midnightblue;
+}
+
+#mail{
+    border: 1px solid midnightblue; 
+}
+
+#message{
+    border: 1px solid midnightblue;
 }
 
 /* end contact me */
