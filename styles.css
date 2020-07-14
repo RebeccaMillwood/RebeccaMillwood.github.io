@@ -64,6 +64,14 @@ a:hover{
     padding:50px;
 }
 
+#dog-button {
+    background-color: #D98695;
+    border:1px solid midnightblue;
+    border-radius:8px;
+    color:midnightblue;
+}
+
+
 /* end home page */ 
 
 
@@ -158,6 +166,7 @@ form{
     border: 1px solid midnightblue;
     
 }
+
 
 /* end contact me */
 
