@@ -142,6 +142,7 @@ form{
 .form-item button{
     background-color: #D98695;
     border:1px solid midnightblue;
+    border-radius:8px;
     color:midnightblue;
 }
 
@@ -155,6 +156,7 @@ form{
 
 #message{
     border: 1px solid midnightblue;
+    
 }
 
 /* end contact me */
