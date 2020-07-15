@@ -64,6 +64,10 @@ a:hover{
     padding:50px;
 }
 
+#special-button{
+    padding-bottom:50px;
+}
+
 #dog-button {
     display:block;
     margin-left:auto;
