@@ -65,10 +65,23 @@ a:hover{
 }
 
 #dog-button {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
     background-color: #D98695;
     border:1px solid midnightblue;
     border-radius:8px;
     color:midnightblue;
+    font-size:1rem;
+}
+
+#hiddenMessage {
+    display:block;
+    text-align:center;
+    font-size: 2rem;
+    margin-left:auto;
+    margin-right:auto;
+  
 }
 
 
@@ -242,6 +255,14 @@ footer{
         width: 90%;
         font-size:1.1rem; 
     }
+
+    #hiddenMessage {
+        display:block;
+        text-align:center;
+        font-size: 3rem;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
 
 @media (min-width:900px){
@@ -290,7 +311,16 @@ footer{
         width: 90%;
         font-size:1.2rem; 
     }
+
+    #hiddenMessage {
+        display:block;
+        text-align:center;
+        font-size: 5rem;
+        margin-left:auto;
+        margin-right:auto;
+      
+    }
 }
-}
+
 
 
