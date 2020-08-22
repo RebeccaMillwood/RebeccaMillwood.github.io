@@ -43,12 +43,12 @@ a:hover{
 
 /* home page */ 
 
-#bio-content{
+#bio_content{
     padding-top:50px;
     padding-bottom:50px;
 }
 
-#profile-pic {
+#profile_pic {
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -58,17 +58,17 @@ a:hover{
     border-style:dashed;
 }
 
-#bio-text{
+#bio_text{
     text-align:center;
     font-size:1rem;
     padding:50px;
 }
 
-#special-button{
+#special_button{
     padding-bottom:50px;
 }
 
-#dog-button {
+#dog_button {
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -94,7 +94,7 @@ a:hover{
 
 /* projects */ 
 
-#project-content{
+#project_content{
     display:flex;
     flex-wrap:wrap;
 }
@@ -111,11 +111,11 @@ h2{
     text-align:center;
 }
 
-div.project-text{
+div.project_text{
     text-align:center;
 }
 
-img.project-pics {
+img.project_pics {
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -129,7 +129,7 @@ img.project-pics {
 
 /* Contact me */
 
-#contact-blurb{
+#contact_blurb{
     text-align:center;
     font-size:1rem;
 }
@@ -140,7 +140,7 @@ form{
     font-size:1rem; 
 }
 
-.form-item {
+.form_item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,23 +148,23 @@ form{
     background-color: #D98695;
 }
 
-.form-item label:hover{
+.form_item label:hover{
     color:lightpink;
 
 }
 
-.form-item input:hover,
-.form-item textarea:hover {
+.form_item input:hover,
+.form_item textarea:hover {
     border: 2px solid lightpink;
 }
 
-.form-item button:hover {
+.form_item button:hover {
     border: 2px solid lightpink;
     background-color: lightpink;
     color: midnightblue;
 }
 
-.form-item button{
+.form_item button{
     background-color: #D98695;
     border:1px solid midnightblue;
     border-radius:8px;
@@ -206,7 +206,7 @@ footer{
 
 
 @media (min-width:600px){
-    #project-content{
+    #project_content{
         display:flex;
         flex-wrap:wrap;
         justify-content:space-evenly;
@@ -217,14 +217,14 @@ footer{
         flex-direction:column;
     }
 
-    #bio-content{
+    #bio_content{
         display:flex;
         flex-wrap:wrap;
         justify-content:center;
         align-items:center;
     }
 
-    #profile-pic {
+    #profile_pic {
         display:inline-block;
         margin-left:auto;
         margin-right:auto;
@@ -234,7 +234,7 @@ footer{
         border-style:dashed;
     }
     
-    #bio-text{
+    #bio_text{
         display:inline-block;
         text-align:justify;
         font-size:1rem;
@@ -249,7 +249,7 @@ footer{
         font-size:1.1rem;
     }
 
-    #contact-blurb{
+    #contact_blurb{
         text-align:center;
         font-size:1.1rem;
     }
@@ -270,7 +270,7 @@ footer{
 }
 
 @media (min-width:900px){
-    #project-content{
+    #project_content{
         display:flex;
         flex-wrap:wrap;
         justify-content:space-evenly;
@@ -280,7 +280,7 @@ footer{
         flex-direction:column;
     }
 
-    #profile-pic {
+    #profile_pic {
         display:inline-block;
         margin-left:auto;
         margin-right:auto;
@@ -290,7 +290,7 @@ footer{
         border-style:dashed;
     }
     
-    #bio-text{
+    #bio_text{
         display:inline-block;
         text-align:justify;
         font-size:1.2rem;
@@ -305,7 +305,7 @@ footer{
         font-size:1.2rem;
     }
 
-    #contact-blurb{
+    #contact_blurb{
         text-align:center;
         font-size:1.2rem;
     }
